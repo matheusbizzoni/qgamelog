@@ -17,6 +17,7 @@ Collect kill data
 ## Installation
 
 Clone the repository with:
+
     $ git clone git@github.com:matheusbizzoni/qgamelog.git
 
 And then execute:

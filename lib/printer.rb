@@ -3,6 +3,7 @@
 require_relative 'game'
 
 require 'byebug'
+require 'json'
 
 # Printer module: prints the results of games
 module Printer
@@ -17,6 +18,6 @@ module Printer
         'kills_by_means' => Hash[game.kills_by_means.sort_by { |_k, v| v }.reverse]
       }
     }
-    puts hash
+    puts JSON.pretty_generate(hash)
   end
 end
