@@ -25,6 +25,10 @@ class Game
     count_kill(killer, killed)
   end
 
+  def name
+    "game_#{number}"
+  end
+
   private
 
   def add_total_kills
