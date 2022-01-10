@@ -46,6 +46,4 @@ class Qgamelog
     @count_games += 1
     @game = Game.new(@count_games)
   end
-
-  Qgamelog.new
 end

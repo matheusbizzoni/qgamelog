@@ -16,5 +16,5 @@ RuboCop::RakeTask.new
 task default: %i[test rubocop]
 
 task :run do
-  ruby 'lib/qgamelog.rb'
+  ruby 'lib/application.rb'
 end
